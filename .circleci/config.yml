@@ -43,6 +43,6 @@ jobs:
             docker tag mydb $DOCKER_HUB_USER_ID/testci20_db:latest
             docker tag myweb $DOCKER_HUB_USER_ID/testci20_web:$CIRCLE_SHA1
             docker tag myweb $DOCKER_HUB_USER_ID/testci20_web:latest
-            docker push $DOCKER_HUB_USER_ID/testci20_db:lates
+            docker push $DOCKER_HUB_USER_ID/testci20_db:latest
             docker push $DOCKER_HUB_USER_ID/testci20_web:latest
 
